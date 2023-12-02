@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+docker/php/files/xdebug.ini
+
+# Библиотеки
+/vendor
+/node_modules
+
+# Конфиги
+.env*
+!.env.example
+
+# Разные файлы
+*.log
